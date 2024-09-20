@@ -1,0 +1,75 @@
+body {
+    font-family:'Times New Roman', Times, serif; /* Cambié 'blackkader' a una fuente estándar */
+    margin: 20px;
+    line-height: 1.2;
+    
+    
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.576);
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 80px;
+}
+
+
+.imagen-con-texto{
+    text-align:center;
+    margin: 20px;
+}
+
+.imagen{
+    border:5px solid #333;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.texto-imagen{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 16px;
+}
